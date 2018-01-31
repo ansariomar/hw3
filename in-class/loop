@@ -1,0 +1,6 @@
+var counter = 10;
+while (counter <=500){
+  line (counter,10,10,counter)
+  counter = counter+5
+
+}
