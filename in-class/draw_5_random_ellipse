@@ -1,0 +1,5 @@
+ellipse(random(width), random(height), random(100), random(100));
+ellipse(random(width), random(height), random(100), random(100));
+ellipse(random(width), random(height), random(100), random(100));
+ellipse(random(width), random(height), random(100), random(100));
+ellipse(random(width), random(height), random(100), random(100));
