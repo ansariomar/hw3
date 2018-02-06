@@ -1,3 +1,16 @@
+function setup() {
+	createCanvas(400, 400);
+}
+
+function draw() {
+background(255);
+
+yourPatch(0, 0);
+yourPatch(width-100, height-100);
+}
+
+
+
 function yourPatch(x, y) {
   noFill();
   stroke(random(0,255),random(0,255),random(0,255));
@@ -15,10 +28,4 @@ drawLine()
 steps = steps + 1
 }
 }
-
-background(255);
-
-yourPatch(0, 0);
-yourPatch(width-100, height-100);
-
-//works in Rudy only
+//works in P5
