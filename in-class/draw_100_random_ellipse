@@ -1,0 +1,10 @@
+  function drawEllipse(){
+  ellipse(random(width), random(height), random(100), random(100));
+  }
+
+  drawEllipse()
+  var steps = 0
+  while (steps < 100) {
+  drawEllipse()
+  steps = steps + 1
+  }
