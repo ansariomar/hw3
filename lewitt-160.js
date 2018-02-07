@@ -1,6 +1,7 @@
+
 function setup() {
   createCanvas(400, 400);
-  strokeWeight(1);
+  strokeWeight(0);
   fill(231, 225, 227)
   rect(1, 1, 398, 398);
   strokeWeight(1);
@@ -13,5 +14,6 @@ function setup() {
   line(335, 60, 60, 335)
 
 }
+
 
 \\http://massmoca.org/wp-content/uploads/2015/12/detail-page-half-width-160.jpg
